@@ -7,13 +7,13 @@ class AddIntegersClientAsync(Node):
 
     def __init__(self):
         super().__init__('addition_client_async')
-        self.client = self.create_client(AddIntegers, 'add_two_ints')
+        self.client = self.create_client(AddTwoInts, 'add_two_ints')
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Service not available, waiting...')
         
 
     def send_request(self, a, b):
-        request = AddIntegers.Request()
+        request = AddTwoInts.Request()
         request.a = int(sys.argv[1])
         request.b = int(sys.argv[2])
         self.future = self.client.call_async(request)
