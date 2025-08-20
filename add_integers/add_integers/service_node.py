@@ -13,7 +13,7 @@ class AddIntegersService(Node):
         self.get_logger().info(f'Incoming Request: a={request.a}, b={request.b}')
         return response
 
-if __name__ == '__main__':
+def main(args=None):
     rclpy.init()
 
     # Create Node
@@ -24,3 +24,6 @@ if __name__ == '__main__':
 
     # Shutdown
     rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
