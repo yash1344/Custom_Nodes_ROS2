@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interface",
+  "non_idl_tuples": [
+    "/home/yash_ubuntu/my_ws/src/custom_interface:srv/AddTwoInts.srv"
+  ]
+}

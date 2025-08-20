@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/yash_ubuntu/my_ws/src/custom_interface" FILES "/home/yash_ubuntu/my_ws/src/build/custom_interface/ament_cmake_core/custom_interfaceConfig.cmake" "/home/yash_ubuntu/my_ws/src/build/custom_interface/ament_cmake_core/custom_interfaceConfig-version.cmake" "DESTINATION" "share/custom_interface/cmake")

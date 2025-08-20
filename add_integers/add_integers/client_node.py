@@ -1,7 +1,7 @@
 import rclpy
 import sys
 from rclpy.node import Node
-from custom_interface.srv import AddIntegers
+from custom_interface.srv import AddTwoInts
 
 class AddIntegersClientAsync(Node):
 

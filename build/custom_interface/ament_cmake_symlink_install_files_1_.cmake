@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/yash_ubuntu/my_ws/src/custom_interface" FILES "/home/yash_ubuntu/my_ws/src/build/custom_interface/rosidl_generator_type_description/custom_interface/srv/AddTwoInts.json" "DESTINATION" "share/custom_interface/srv")

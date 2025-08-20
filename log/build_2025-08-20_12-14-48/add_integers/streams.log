@@ -1,0 +1,25 @@
+[1.431s] Invoking command in '/home/yash_ubuntu/my_ws/src/build/add_integers': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash_ubuntu/my_ws/src/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash_ubuntu/my_ws/src/install/add_integers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yash_ubuntu/my_ws/src/build/add_integers/build --no-deps symlink_data
+[2.120s] running develop
+[2.345s] running egg_info
+[2.346s] creating add_integers.egg-info
+[2.367s] writing add_integers.egg-info/PKG-INFO
+[2.367s] writing dependency_links to add_integers.egg-info/dependency_links.txt
+[2.367s] writing entry points to add_integers.egg-info/entry_points.txt
+[2.367s] writing requirements to add_integers.egg-info/requires.txt
+[2.367s] writing top-level names to add_integers.egg-info/top_level.txt
+[2.367s] writing manifest file 'add_integers.egg-info/SOURCES.txt'
+[2.409s] reading manifest file 'add_integers.egg-info/SOURCES.txt'
+[2.410s] writing manifest file 'add_integers.egg-info/SOURCES.txt'
+[2.432s] running build_ext
+[2.432s] Creating /home/yash_ubuntu/my_ws/src/install/add_integers/lib/python3.12/site-packages/add-integers.egg-link (link to .)
+[2.433s] Installing addition_client_async script to /home/yash_ubuntu/my_ws/src/install/add_integers/lib/add_integers
+[2.433s] Installing addition_service script to /home/yash_ubuntu/my_ws/src/install/add_integers/lib/add_integers
+[2.433s] 
+[2.434s] Installed /home/yash_ubuntu/my_ws/src/build/add_integers
+[2.434s] running symlink_data
+[2.434s] creating /home/yash_ubuntu/my_ws/src/install/add_integers/share/ament_index
+[2.434s] creating /home/yash_ubuntu/my_ws/src/install/add_integers/share/ament_index/resource_index
+[2.434s] creating /home/yash_ubuntu/my_ws/src/install/add_integers/share/ament_index/resource_index/packages
+[2.434s] symbolically linking /home/yash_ubuntu/my_ws/src/build/add_integers/resource/add_integers -> /home/yash_ubuntu/my_ws/src/install/add_integers/share/ament_index/resource_index/packages
+[2.434s] symbolically linking /home/yash_ubuntu/my_ws/src/build/add_integers/package.xml -> /home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers
+[2.474s] Invoked command in '/home/yash_ubuntu/my_ws/src/build/add_integers' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash_ubuntu/my_ws/src/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash_ubuntu/my_ws/src/install/add_integers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yash_ubuntu/my_ws/src/build/add_integers/build --no-deps symlink_data

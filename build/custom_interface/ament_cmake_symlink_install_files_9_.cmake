@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/yash_ubuntu/my_ws/src/custom_interface" FILES "/home/yash_ubuntu/my_ws/src/build/custom_interface/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/custom_interface" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

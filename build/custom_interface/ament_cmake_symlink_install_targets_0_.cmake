@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yash_ubuntu/my_ws/src/build/custom_interface/rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "custom_interface_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/custom_interface")

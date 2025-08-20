@@ -1,0 +1,11 @@
+{
+  "package_name": "custom_interface",
+  "output_dir": "/home/yash_ubuntu/my_ws/src/build/custom_interface/rosidl_generator_type_description/custom_interface",
+  "idl_tuples": [
+    "/home/yash_ubuntu/my_ws/src/build/custom_interface/rosidl_adapter/custom_interface:srv/AddTwoInts.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/kilted/share/service_msgs",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces"
+  ]
+}

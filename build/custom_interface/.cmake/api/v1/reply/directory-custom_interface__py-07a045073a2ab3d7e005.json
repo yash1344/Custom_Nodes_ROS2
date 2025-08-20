@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_interface__py",
+		"source" : "/home/yash_ubuntu/my_ws/src/build/custom_interface/custom_interface__py"
+	}
+}

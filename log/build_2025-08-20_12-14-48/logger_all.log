@@ -1,0 +1,315 @@
+[0.137s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.137s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7351fe590470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7351fe590170>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7351fe590170>>, mixin_verb=('build',))
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.192s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yash_ubuntu/my_ws/src'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(add_integers) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(add_integers) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(add_integers) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(add_integers) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(add_integers) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(add_integers) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(add_integers) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(add_integers) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(add_integers) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'add_integers' with type 'ros.ament_python' and name 'add_integers'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interface) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interface) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interface) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interface) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interface) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interface) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interface) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interface) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_interface' with type 'ros.ament_cmake' and name 'custom_interface'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'my_package' with type 'ros.ament_cmake' and name 'my_package'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(talker_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(talker_listener) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(talker_listener) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(talker_listener) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(talker_listener) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(talker_listener) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(talker_listener) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(talker_listener) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(talker_listener) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'talker_listener' with type 'ros.ament_python' and name 'talker_listener'
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/yash_ubuntu/my_ws/install
+[0.267s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 322 installed packages in /opt/ros/kilted
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'add_integers' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'add_integers' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'add_integers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'add_integers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'add_integers' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'add_integers' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'add_integers' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'add_integers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'add_integers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'add_integers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash_ubuntu/my_ws/src/build/add_integers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash_ubuntu/my_ws/src/install/add_integers', 'merge_install': False, 'path': '/home/yash_ubuntu/my_ws/src/add_integers', 'symlink_install': True, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash_ubuntu/my_ws/src/build/custom_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash_ubuntu/my_ws/src/install/custom_interface', 'merge_install': False, 'path': '/home/yash_ubuntu/my_ws/src/custom_interface', 'symlink_install': True, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash_ubuntu/my_ws/src/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash_ubuntu/my_ws/src/install/my_package', 'merge_install': False, 'path': '/home/yash_ubuntu/my_ws/src/my_package', 'symlink_install': True, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'talker_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash_ubuntu/my_ws/src/build/talker_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash_ubuntu/my_ws/src/install/talker_listener', 'merge_install': False, 'path': '/home/yash_ubuntu/my_ws/src/talker_listener', 'symlink_install': True, 'test_result_base': None}
+[0.322s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.324s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yash_ubuntu/my_ws/src/add_integers' with build type 'ament_python'
+[0.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_integers', 'ament_prefix_path')
+[0.327s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/hook/ament_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/hook/ament_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/hook/ament_prefix_path.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yash_ubuntu/my_ws/src/custom_interface' with build type 'ament_cmake'
+[0.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yash_ubuntu/my_ws/src/custom_interface'
+[0.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yash_ubuntu/my_ws/src/my_package' with build type 'ament_cmake'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yash_ubuntu/my_ws/src/my_package'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yash_ubuntu/my_ws/src/talker_listener' with build type 'ament_python'
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'ament_prefix_path')
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/hook/ament_prefix_path.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/hook/ament_prefix_path.dsv'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/hook/ament_prefix_path.sh'
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.668s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yash_ubuntu/my_ws/src/add_integers'
+[0.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.669s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash_ubuntu/my_ws/src/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash_ubuntu/my_ws/src/custom_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yash_ubuntu/my_ws/src/install/custom_interface
+[0.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash_ubuntu/my_ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash_ubuntu/my_ws/src/build/my_package -- -j16 -l16
+[0.968s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yash_ubuntu/my_ws/src/talker_listener'
+[0.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash_ubuntu/my_ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash_ubuntu/my_ws/src/build/my_package -- -j16 -l16
+[0.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash_ubuntu/my_ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash_ubuntu/my_ws/src/build/my_package
+[1.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[1.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash_ubuntu/my_ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash_ubuntu/my_ws/src/build/my_package
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package' for CMake module files
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package' for CMake config files
+[1.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package/bin'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package/lib/pkgconfig/my_package.pc'
+[1.058s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package/lib/python3.12/site-packages'
+[1.058s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package/bin'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.ps1'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.dsv'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.sh'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.bash'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.zsh'
+[1.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash_ubuntu/my_ws/src/install/my_package/share/colcon-core/packages/my_package)
+[1.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package' for CMake module files
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package' for CMake config files
+[1.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package/bin'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package/lib/pkgconfig/my_package.pc'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package/lib/python3.12/site-packages'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/my_package/bin'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.sh'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.bash'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.zsh'
+[1.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash_ubuntu/my_ws/src/install/my_package/share/colcon-core/packages/my_package)
+[1.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash_ubuntu/my_ws/src/build/talker_listener': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash_ubuntu/my_ws/src/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash_ubuntu/my_ws/src/install/talker_listener/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yash_ubuntu/my_ws/src/build/talker_listener/build --no-deps symlink_data
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash_ubuntu/my_ws/src/build/add_integers': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash_ubuntu/my_ws/src/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash_ubuntu/my_ws/src/install/add_integers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yash_ubuntu/my_ws/src/build/add_integers/build --no-deps symlink_data
+[2.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'pythonpath_develop')
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/build/talker_listener/share/talker_listener/hook/pythonpath_develop.ps1'
+[2.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash_ubuntu/my_ws/src/build/talker_listener' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash_ubuntu/my_ws/src/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash_ubuntu/my_ws/src/install/talker_listener/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yash_ubuntu/my_ws/src/build/talker_listener/build --no-deps symlink_data
+[2.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/build/talker_listener/share/talker_listener/hook/pythonpath_develop.dsv'
+[2.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/build/talker_listener/share/talker_listener/hook/pythonpath_develop.sh'
+[2.686s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/talker_listener' for CMake module files
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/talker_listener' for CMake config files
+[2.688s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/talker_listener/lib'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/talker_listener/bin'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/talker_listener/lib/pkgconfig/talker_listener.pc'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/talker_listener/lib/python3.12/site-packages'
+[2.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'pythonpath')
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/hook/pythonpath.ps1'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/hook/pythonpath.dsv'
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/hook/pythonpath.sh'
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/talker_listener/bin'
+[2.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talker_listener)
+[2.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/package.ps1'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/package.dsv'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/package.sh'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/package.bash'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/talker_listener/share/talker_listener/package.zsh'
+[2.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash_ubuntu/my_ws/src/install/talker_listener/share/colcon-core/packages/talker_listener)
+[2.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_integers', 'pythonpath_develop')
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/build/add_integers/share/add_integers/hook/pythonpath_develop.ps1'
+[2.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash_ubuntu/my_ws/src/build/add_integers' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash_ubuntu/my_ws/src/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash_ubuntu/my_ws/src/install/add_integers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yash_ubuntu/my_ws/src/build/add_integers/build --no-deps symlink_data
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/build/add_integers/share/add_integers/hook/pythonpath_develop.dsv'
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/build/add_integers/share/add_integers/hook/pythonpath_develop.sh'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/add_integers' for CMake module files
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/add_integers' for CMake config files
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/add_integers/lib'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/add_integers/bin'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/add_integers/lib/pkgconfig/add_integers.pc'
+[2.802s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/add_integers/lib/python3.12/site-packages'
+[2.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_integers', 'pythonpath')
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/hook/pythonpath.ps1'
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/hook/pythonpath.dsv'
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/hook/pythonpath.sh'
+[2.803s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/add_integers/bin'
+[2.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(add_integers)
+[2.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/package.ps1'
+[2.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/package.dsv'
+[2.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/package.sh'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/package.bash'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/add_integers/share/add_integers/package.zsh'
+[2.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash_ubuntu/my_ws/src/install/add_integers/share/colcon-core/packages/add_integers)
+[5.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash_ubuntu/my_ws/src/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash_ubuntu/my_ws/src/custom_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yash_ubuntu/my_ws/src/install/custom_interface
+[5.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash_ubuntu/my_ws/src/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash_ubuntu/my_ws/src/build/custom_interface -- -j16 -l16
+[8.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash_ubuntu/my_ws/src/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash_ubuntu/my_ws/src/build/custom_interface -- -j16 -l16
+[8.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash_ubuntu/my_ws/src/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash_ubuntu/my_ws/src/build/custom_interface
+[8.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[8.867s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface' for CMake module files
+[8.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash_ubuntu/my_ws/src/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash_ubuntu/my_ws/src/build/custom_interface
+[8.869s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface' for CMake config files
+[8.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[8.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[8.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[8.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[8.871s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface/lib'
+[8.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[8.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[8.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[8.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[8.872s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface/bin'
+[8.872s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[8.873s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface/lib/python3.12/site-packages'
+[8.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'pythonpath')
+[8.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/pythonpath.ps1'
+[8.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/pythonpath.dsv'
+[8.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/pythonpath.sh'
+[8.874s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface/bin'
+[8.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/package.ps1'
+[8.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/package.dsv'
+[8.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/package.sh'
+[8.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/package.bash'
+[8.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/package.zsh'
+[8.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash_ubuntu/my_ws/src/install/custom_interface/share/colcon-core/packages/custom_interface)
+[8.877s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[8.877s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface' for CMake module files
+[8.878s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface' for CMake config files
+[8.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[8.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[8.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[8.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[8.879s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface/lib'
+[8.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[8.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[8.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[8.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface/bin'
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface/lib/python3.12/site-packages'
+[8.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'pythonpath')
+[8.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/pythonpath.ps1'
+[8.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/pythonpath.dsv'
+[8.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/hook/pythonpath.sh'
+[8.882s] Level 1:colcon.colcon_core.environment:checking '/home/yash_ubuntu/my_ws/src/install/custom_interface/bin'
+[8.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/package.ps1'
+[8.883s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/package.dsv'
+[8.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/package.sh'
+[8.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/package.bash'
+[8.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash_ubuntu/my_ws/src/install/custom_interface/share/custom_interface/package.zsh'
+[8.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash_ubuntu/my_ws/src/install/custom_interface/share/colcon-core/packages/custom_interface)
+[8.885s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.885s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.885s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.885s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.891s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.892s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.892s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.909s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.909s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash_ubuntu/my_ws/src/install/local_setup.ps1'
+[8.910s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yash_ubuntu/my_ws/src/install/_local_setup_util_ps1.py'
+[8.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash_ubuntu/my_ws/src/install/setup.ps1'
+[8.912s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash_ubuntu/my_ws/src/install/local_setup.sh'
+[8.913s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yash_ubuntu/my_ws/src/install/_local_setup_util_sh.py'
+[8.913s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash_ubuntu/my_ws/src/install/setup.sh'
+[8.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash_ubuntu/my_ws/src/install/local_setup.bash'
+[8.915s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash_ubuntu/my_ws/src/install/setup.bash'
+[8.916s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash_ubuntu/my_ws/src/install/local_setup.zsh'
+[8.916s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash_ubuntu/my_ws/src/install/setup.zsh'
