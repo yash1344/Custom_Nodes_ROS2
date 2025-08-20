@@ -12,7 +12,7 @@ class AddIntegersClientAsync(Node):
             self.get_logger().info('Service not available, waiting...')
         
 
-    def send_request(self, a, b):
+    def send_request(self):
         request = AddTwoInts.Request()
         request.a = int(sys.argv[1])
         request.b = int(sys.argv[2])
