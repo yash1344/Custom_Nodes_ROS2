@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>custom_interface</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="vaghaniyash2121@gmail.com">Yash Vaghani</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+<!-- ================================================================ -->
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+<!-- his declares: “Hey, I’m a package that defines interfaces”.
+It allows tooling (ros2 interface list) to discover your package as one that provides .msg/.srv/.action definitions.
+If you don’t add this, your package still works, but your messages might not show up in introspection tools. -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+<!-- ================================================================ -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

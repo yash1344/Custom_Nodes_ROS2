@@ -1,0 +1,49 @@
+[0.018s] Invoking command in '/home/yash_ubuntu/my_ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash_ubuntu/my_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yash_ubuntu/my_ws/src/install/my_package
+[0.101s] -- The C compiler identification is GNU 13.3.0
+[0.177s] -- The CXX compiler identification is GNU 13.3.0
+[0.202s] -- Detecting C compiler ABI info
+[0.338s] -- Detecting C compiler ABI info - done
+[0.355s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.372s] -- Detecting CXX compiler ABI info
+[0.514s] -- Detecting CXX compiler ABI info - done
+[0.526s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.530s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.725s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.821s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.854s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[0.989s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.989s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.989s] -- Added test 'lint_cmake' to check CMake code style
+[0.990s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.991s] -- Added test 'xmllint' to check XML markup files
+[0.993s] -- Configuring done (1.0s)
+[0.997s] -- Generating done (0.0s)
+[0.998s] -- Build files have been written to: /home/yash_ubuntu/my_ws/src/build/my_package
+[1.005s] Invoked command in '/home/yash_ubuntu/my_ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash_ubuntu/my_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yash_ubuntu/my_ws/src/install/my_package
+[1.007s] Invoking command in '/home/yash_ubuntu/my_ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash_ubuntu/my_ws/src/build/my_package -- -j16 -l16
+[1.068s] Invoked command in '/home/yash_ubuntu/my_ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash_ubuntu/my_ws/src/build/my_package -- -j16 -l16
+[1.080s] Invoking command in '/home/yash_ubuntu/my_ws/src/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash_ubuntu/my_ws/src/build/my_package
+[1.091s] -- Install configuration: ""
+[1.091s] -- Execute custom install script
+[1.092s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/launch/listener.launch.py
+[1.104s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/launch/talker.launch.py
+[1.119s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.132s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.143s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.156s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.168s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/environment/path.sh
+[1.179s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/environment/path.dsv
+[1.193s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/local_setup.bash
+[1.206s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/local_setup.sh
+[1.220s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/local_setup.zsh
+[1.232s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/local_setup.dsv
+[1.244s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.dsv
+[1.259s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.270s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.281s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.292s] -- Symlinking: /home/yash_ubuntu/my_ws/src/install/my_package/share/my_package/package.xml
+[1.305s] Invoked command in '/home/yash_ubuntu/my_ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash_ubuntu/my_ws/install/talker_listener:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash_ubuntu/my_ws/src/build/my_package

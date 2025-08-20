@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/yash_ubuntu/my_ws/src/my_package" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_package/environment")

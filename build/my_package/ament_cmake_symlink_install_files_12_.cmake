@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/yash_ubuntu/my_ws/src/my_package" FILES "/home/yash_ubuntu/my_ws/src/build/my_package/ament_cmake_core/my_packageConfig.cmake" "/home/yash_ubuntu/my_ws/src/build/my_package/ament_cmake_core/my_packageConfig-version.cmake" "DESTINATION" "share/my_package/cmake")
